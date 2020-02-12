@@ -1,0 +1,287 @@
+/* Header section starts */
+
+header {
+	padding: 25px 0px;
+}
+/* Header section ends */
+
+/* Banner section starts */
+.banner {
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;	 
+}
+.banner-title {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;    
+}
+.banner-title h2{
+    color: #fff;
+    font-size: 120px;
+}
+.banner-title span{
+    border-bottom: 2px solid #15a4fa;
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+}
+.banner-title p{
+    color: #fff;
+}
+.btn{
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #15a4fa;
+    padding: 16px 32px;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.fa.fa-chevron-down{
+    color: #fff;
+    margin-top: 180px;
+}
+/* Banner section ends */
+
+/* design section starts */
+
+.design {
+	background-color: #F6F9F9;
+}
+.design-title {
+
+}
+.design-title h2 {
+	font-size: 40px;
+    margin-bottom: 35px;
+    margin-top: 80px;
+}
+.design-title p {
+	font-size: 20px;
+    color: #999999;
+    margin-bottom: 90px;
+}
+
+/* design section ends */
+
+/* Feature section starts */
+.feature {
+	background: #fff;
+	padding: 85px 0px 80px 0px;
+}
+.feature-title {
+
+}
+
+.feature-title h2 {
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.feature-title p {
+    font-size: 15px;
+    color: #999999;
+    margin: 10px 16px;
+}
+.fa.fa-mobile {
+    font-size: 70px;
+    color: #fff;
+    padding: 25px 43px;
+    background: #5fc3ff;
+}
+
+.fa.fa-paper-plane {
+    font-size: 70px;
+    color: #fff;
+    padding: 25px 25px;
+    background: #5fc3ff;
+}
+
+.fa.fa-bullhorn {
+    text-align: center;
+    color: #fff;
+    background: #5fc3ff;
+    padding: 26px 29px;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+/* Feature section ends */
+
+/* Gallery section starts */
+
+.gallery {
+	background: #F6F9F9;
+	padding-bottom: 60px;
+}
+.gallery-title h2 {
+	margin-top: 80px;
+    font-size: 41px;
+}
+.gallery-title p {
+	font-size: 15px;
+    color: #999999;
+    margin-top: 20px;
+}
+.gallery-content {
+	padding: 15px 10px;
+}
+
+/* Gallery section ends */
+
+/* Contact section starts */
+
+.contact {
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+}
+.contact-title h1{
+    font-size: 41px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.contact-title h2{
+    font-size: 15px;
+    color: #999999;
+    padding: 20px 0 50px 0;
+}
+.form-control {
+    padding: 23px 20px;
+    margin: 5px 0px;
+    background: transparent;
+    font-size: 14px;
+}
+.text-control {
+    padding: 10px 20px;
+    background: transparent;
+    height: 180px;
+    font-size: 14px;
+    width: 100%;  
+}
+.contact-form {
+
+}
+.contact-down-left {
+    width: 50%;
+    float: left;
+    margin: 20px 0px;
+    color: #fff;
+}
+.contact-down-right {
+    width: 50%;
+    float: left;
+    text-align: right;  
+}
+.submit-btn {
+    color: #fff;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 15px 50px;
+    margin: 12px 0px;
+}
+.checkbox {
+    margin: 0px 15px 0px 0px;
+}
+.checkbox-span {
+    font-size: 17px;
+}
+
+/* Contact section ends */
+
+/* Footer section starts */
+
+.copyrights h2 {
+    color: #999999;
+    font-size: 15px;
+    margin: 35px 5px;
+}
+.social-icons ul {
+    list-style: none;
+    
+}
+.social-icons ul li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;  
+}
+.fa.fa-facebook {
+    background: #15a4fa;
+    padding: 10px 14px;
+    color: #fff;
+}
+.fa.fa-twitter {
+    background: #15a4fa;
+    padding: 10px 10px;
+    color: #fff;    
+}
+.fa.fa-linkedin {
+    background: #15a4fa;
+    padding: 10px 12px;
+    color: #fff;
+}
+.fa.fa-google-plus {
+    background: #15a4fa;
+    padding: 10px 8px;
+    color: #fff;    
+}
+/* Footer section ends */
+
+/* Media Quary starts */
+
+/* Mobile device */
+@media (min-height: 320px) and (max-width: 500px) {
+    .img-fluid {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .banner-title h2 {
+    text-align: center;    
+    }
+    .gallery-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    
+}
+/* Small device */
+@media (min-height: 501px) and (max-width: 768px) {
+    .img-fluid {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .banner-title h2 {
+    text-align: center;    
+    }
+    .gallery-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
+   
+}
+/* Medium device */
+@media (min-height: 769px) and (max-width: 1199px) {
+
+ 
+
+}
+/* Large device */
+@media (min-height: 1200px) and (max-width: ) {
+
+}
+/* Media Quary ends */
+
+
+
+
